@@ -117,12 +117,13 @@
                     android:layout_height="wrap_content"
                     android:layout_width="match_parent"
                     android:layout_weight="1">
+
                     <EditText
                         android:id="@+id/from_id"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:inputType="textPersonName"
-                        android:hint="From" />
+                        android:hint="From Station"
+                        android:inputType="textPersonName" />
 
                 </android.support.design.widget.TextInputLayout>
                 <android.support.design.widget.TextInputLayout
@@ -130,12 +131,13 @@
                     android:layout_height="wrap_content"
                     android:layout_width="match_parent"
                     android:layout_weight="1">
+
                     <EditText
                         android:id="@+id/to_id"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:inputType="textPersonName"
-                        android:hint="To" />
+                        android:hint="To Station"
+                        android:inputType="textPersonName" />
 
                 </android.support.design.widget.TextInputLayout>
             </LinearLayout>
